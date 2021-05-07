@@ -2,14 +2,11 @@ public class Main {
 
     public static void main(String[] args) {
         Livro livro1 = new Livro();
-        Autor autor1 = new Autor("Stephen Hawking");
-                
+        Livro livro2 = new Livro();
+        Autor autor1 = new Autor("Stephen Hawking");                
         Aluno aluno = new Aluno("Aluno Daniel", "21898");
         livro1.emprestadopor = aluno;
-        autor1.nome = "Stephen Hawking";
-        autor1.nacionalidade = "Reino Unido";
-        Autor autor2 = new Autor("Stephen Covey");
-        Livro livro2 = new Livro();
+        Autor autor2 = new Autor("Stephen Covey");        
         Professor prof = new Professor("Professor Efrain", "3213214");
         livro2.emprestadopor = prof;
        
